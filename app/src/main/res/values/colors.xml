@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core premium dark palette -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg_primary">#FF0A0B0D</color>
+    <color name="bg_surface">#FF121417</color>
+    <color name="bg_surface_variant">#FF1A1D21</color>
+    <color name="bg_elevated">#FF1F2329</color>
+
+    <!-- Glassmorphism card colors -->
+    <color name="glass_card">#1AFFFFFF</color>
+    <color name="glass_stroke">#22FFFFFF</color>
+    <color name="glass_overlay">#66000000</color>
+
+    <!-- Emerald green accent -->
+    <color name="accent_emerald">#FF10B981</color>
+    <color name="accent_emerald_dark">#FF059669</color>
+    <color name="accent_emerald_light">#FF34D399</color>
+    <color name="accent_emerald_10">#1A10B981</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFF5F7FA</color>
+    <color name="text_secondary">#FFB4BBC4</color>
+    <color name="text_tertiary">#FF6B7280</color>
+
+    <!-- Misc -->
+    <color name="heart_active">#FFFF4D6D</color>
+    <color name="chip_unselected">#FF1A1D21</color>
+    <color name="scrim">#99000000</color>
+    <color name="stat_pill">#1410B981</color>
+</resources>

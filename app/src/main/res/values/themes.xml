@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base premium dark theme built on Material Components -->
+    <style name="Theme.Wallora" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent_emerald</item>
+        <item name="colorPrimaryDark">@color/accent_emerald_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/accent_emerald_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:colorBackground">@color/bg_primary</item>
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/bg_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+
+        <item name="colorControlHighlight">@color/accent_emerald_10</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Fullscreen wallpaper detail theme -->
+    <style name="Theme.Wallora.Detail" parent="Theme.Wallora">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <!-- Category chip styling -->
+    <style name="Widget.Wallora.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_unselected</item>
+        <item name="chipStrokeColor">@color/glass_stroke</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="chipMinHeight">40dp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="ensureMinTouchTargetSize">false</item>
+    </style>
+
+    <!-- Primary action button (emerald) -->
+    <style name="Widget.Wallora.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/accent_emerald</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="iconTint">@color/black</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+
+    <!-- Secondary glass action button -->
+    <style name="Widget.Wallora.Button.Glass" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="backgroundTint">@color/glass_card</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="strokeColor">@color/glass_stroke</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="iconTint">@color/text_primary</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+
+    <style name="WalloraStatPill">
+        <item name="android:background">@drawable/bg_stat_pill</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
