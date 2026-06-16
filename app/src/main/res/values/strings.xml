@@ -17,6 +17,7 @@
     <string name="category_count_format">%1$d moods</string>
     <string name="favorite_count_format">%1$d saved</string>
     <string name="saved_count_format">%1$d saved pieces</string>
+    <string name="item_quality_label">4K ready</string>
 
     <string name="cat_all">All</string>
     <string name="cat_nature">Nature</string>
@@ -30,7 +31,7 @@
     <string name="share_wallpaper">Share</string>
     <string name="back">Back</string>
     <string name="favorite">Favorite</string>
-    <string name="detail_meta">High contrast preview · Instant apply · Offline ready</string>
+    <string name="detail_meta">High contrast preview - Instant apply - Offline ready</string>
 
     <string name="favorites_empty_title">No favorites yet</string>
     <string name="favorites_empty_sub">Tap the heart on any wallpaper to save it here.</string>

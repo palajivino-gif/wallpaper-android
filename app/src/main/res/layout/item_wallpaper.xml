@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="6dp"
-    app:cardBackgroundColor="@color/bg_surface_variant"
-    app:cardCornerRadius="22dp"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/bg_surface"
+    app:cardCornerRadius="24dp"
     app:cardElevation="0dp"
+    app:rippleColor="@color/accent_emerald_10"
     app:strokeColor="@color/glass_stroke"
-    app:strokeWidth="1dp"
-    app:rippleColor="@color/accent_emerald_10">
+    app:strokeWidth="1dp">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -19,24 +19,41 @@
         <ImageView
             android:id="@+id/image_wallpaper"
             android:layout_width="match_parent"
-            android:layout_height="240dp"
+            android:layout_height="252dp"
             android:contentDescription="@string/app_name"
             android:scaleType="centerCrop"
             tools:src="@drawable/wallpaper_1" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="150dp"
             android:layout_gravity="bottom"
             android:background="@drawable/gradient_scrim_bottom"
             android:rotation="180" />
 
-        <!-- Favorite heart -->
+        <TextView
+            android:id="@+id/text_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_item_badge"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:textColor="@color/text_primary"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            tools:text="PREMIUM" />
+
         <FrameLayout
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:id="@+id/favorite_container"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:layout_gravity="top|end"
-            android:layout_margin="10dp"
+            android:layout_margin="12dp"
             android:background="@drawable/bg_icon_circle">
 
             <ImageView
@@ -48,34 +65,59 @@
                 android:src="@drawable/ic_heart_outline" />
         </FrameLayout>
 
-        <!-- Title + category -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_item_footer"
             android:orientation="vertical"
             android:paddingHorizontal="14dp"
+            android:paddingTop="12dp"
             android:paddingBottom="14dp">
 
             <TextView
                 android:id="@+id/text_title"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:textColor="@color/text_primary"
-                android:textSize="15sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 tools:text="Misty Forest" />
 
-            <TextView
-                android:id="@+id/text_category"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:textColor="@color/accent_emerald_light"
-                android:textSize="12sp"
-                tools:text="Nature" />
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:background="@drawable/bg_category_dot" />
+
+                <TextView
+                    android:id="@+id/text_category"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/accent_emerald_light"
+                    android:textSize="12sp"
+                    tools:text="Nature" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item_quality_label"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
         </LinearLayout>
 
     </FrameLayout>

@@ -2,6 +2,7 @@ package com.demo.wallpaper.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -27,8 +28,17 @@ class WallpaperAdapter(
             binding.imageWallpaper.setImageResource(wallpaper.resId)
             binding.textTitle.text = wallpaper.title
             binding.textCategory.text = wallpaper.category
+            binding.textBadge.text = if (wallpaper.category == "Premium") {
+                "Premium"
+            } else {
+                wallpaper.category.uppercase()
+            }
             binding.btnFavorite.setImageResource(
                 if (item.isFavorite) R.drawable.ic_heart_filled else R.drawable.ic_heart_outline
+            )
+            binding.btnFavorite.imageTintList = ContextCompat.getColorStateList(
+                binding.root.context,
+                if (item.isFavorite) R.color.heart_active else R.color.text_primary
             )
             binding.root.setOnClickListener { onItemClick(item) }
             binding.btnFavorite.setOnClickListener { onFavoriteClick(item) }
