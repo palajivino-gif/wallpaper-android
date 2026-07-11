@@ -1,251 +1,179 @@
 <div align="center">
 
-# 🎨 Wallora — Premium Wallpaper App for Android
+# 🎨 Wallora
 
-### A production-ready, ad-monetized wallpaper app in Kotlin. Free to download, yours to publish.
+### Premium Wallpaper App for Android — free source code, ads already built in.
 
-Ship your own wallpaper app on Google Play in an afternoon — glassmorphic dark UI, one-tap
-wallpaper setting, favorites, and **AdMob banners + interstitials already wired in**.
+Clone it → change the pictures → publish it → **earn from AdMob.**
 
-[![Platform](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.2.10-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
-[![minSdk](https://img.shields.io/badge/minSdk-24-10B981?style=for-the-badge)](https://developer.android.com)
-[![AdMob](https://img.shields.io/badge/AdMob-Ready-EA4335?style=for-the-badge&logo=googleads&logoColor=white)](https://admob.google.com)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
+<br>
 
-**No backend. No API keys. No monthly bills.** Every image is a local drawable, so the app
-works fully offline — and costs you nothing to run.
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](#)
+[![AdMob Ready](https://img.shields.io/badge/AdMob-Ready-EA4335?style=for-the-badge&logo=googleads&logoColor=white)](#)
+[![MIT](https://img.shields.io/badge/License-MIT-3B82F6?style=for-the-badge)](LICENSE)
+[![Free](https://img.shields.io/badge/Price-FREE-10B981?style=for-the-badge)](#)
 
-</div>
+<br>
 
----
+# 🎓 Learn to build apps like this — with AI
 
-<div align="center">
+### Free **2-hour webinar** · No coding experience needed
 
-### 🎓 Want to build apps like this yourself — with AI?
+[![Join the FREE Webinar](https://img.shields.io/badge/🚀%20JOIN%20FREE%202--HOUR%20WEBINAR-androai.io-10B981?style=for-the-badge)](https://androai.io)
 
-**[androai.io](https://androai.io)** runs a **free 2-hour webinar** on developing Android apps
-using AI: from idea to a published, ad-monetized app — no prior Android experience needed.
-
-[![Join the free webinar](https://img.shields.io/badge/Join%20the%20FREE%202--hour%20webinar-androai.io-10B981?style=for-the-badge&logo=googlechrome&logoColor=white)](https://androai.io)
-
-*This app is exactly the kind of project you'll learn to build and ship.*
+**👉 [androai.io](https://androai.io)**
 
 </div>
 
 ---
 
-## ✨ Why this project
+## 📱 What it looks like
 
-Most wallpaper templates are either bare-bones demos or paid CodeCanyon downloads. Wallora is
-neither: it's a complete, good-looking app you can **clone, rebrand, and monetize today**.
+```
+┌───────────────────────┐  ┌───────────────────────┐  ┌───────────────────────┐
+│  Discover        🔍   │  │  ←              ♥     │  │  Favorites            │
+│  ─────────────────    │  │                       │  │  ─────────────────    │
+│ [All][Nature][Love]   │  │                       │  │                       │
+│                       │  │      FULL SCREEN      │  │   ┌─────┐ ┌─────┐     │
+│  ┌─────┐  ┌─────┐     │  │       WALLPAPER       │  │   │  ♥  │ │  ♥  │     │
+│  │  ♥  │  │  ♥  │     │  │        PREVIEW        │  │   └─────┘ └─────┘     │
+│  └─────┘  └─────┘     │  │                       │  │   ┌─────┐ ┌─────┐     │
+│  ┌─────┐  ┌─────┐     │  │                       │  │   │  ♥  │ │  ♥  │     │
+│  │  ♥  │  │  ♥  │     │  │  ┌─────┬─────┬─────┐  │  │   └─────┘ └─────┘     │
+│  └─────┘  └─────┘     │  │  │ SET │SAVE │SHARE│  │  │                       │
+│  ▓▓▓ BANNER AD ▓▓▓    │  │  └─────┴─────┴─────┘  │  │                       │
+│  🏠    ♥     ⚙️       │  │                       │  │  🏠    ♥     ⚙️       │
+└───────────────────────┘  └───────────────────────┘  └───────────────────────┘
+        HOME                      DETAIL                    FAVORITES
+```
 
-| | |
-|---|---|
-| 🖤 **Premium dark UI** | Glassmorphic cards, emerald accents, gradient scrims — designed for AMOLED |
-| 💰 **Monetization built in** | Adaptive banner on Home + interstitial on every 3rd wallpaper open |
-| ⚡ **Zero running cost** | Local drawables, no server, no image API, no rate limits |
-| ❤️ **Favorites that persist** | SharedPreferences-backed, survives restarts |
-| 🔎 **Search + categories** | Live title search and 6 mood-based category chips |
-| 📥 **Set · Save · Share** | One-tap actions with scoped-storage support (Android 10+) |
-| 🧱 **Clean architecture** | MVVM, ViewModel + LiveData, ViewBinding, single-source repository |
-| 🚀 **Modern toolchain** | AGP 9, Kotlin 2.2, targetSdk 36, Gradle version catalog |
-
----
-
-## 📱 Screens
-
-| Home | Detail | Favorites | Settings |
-|:---:|:---:|:---:|:---:|
-| Hero header, search bar, category chips, staggered wallpaper grid, banner ad | Full-bleed preview with Set / Save / Share actions and a favorite toggle | Everything you hearted, in one grid, with an empty state | Version, Share App, Rate App, Privacy Policy |
-
-> 💡 Drop your own PNGs into `docs/screenshots/` and link them here before you publish — a
-> screenshot row is the single biggest install-rate lever on the Play Store listing.
+> 📸 Add real screenshots to `docs/screenshots/` and show them off here.
 
 ---
 
-## 🚀 Quick start
+## ✨ Features
+
+|   |   |   |
+|:-:|---|---|
+| 🖤 | **Premium dark UI** | Glass cards + emerald accent, made for AMOLED |
+| 💰 | **AdMob built in** | Banner + interstitial, ready to earn |
+| ⚡ | **Zero cost** | No server, no API — images are local |
+| ❤️ | **Favorites** | Saved forever on the phone |
+| 🔎 | **Search + 6 categories** | Nature · Abstract · Love · Motivation · Premium |
+| 📥 | **Set · Save · Share** | One tap each |
+
+---
+
+## 🚀 Run it (2 minutes)
 
 ```bash
-git clone https://github.com/<your-username>/wallpaper-android.git
-cd wallpaper-android
-./gradlew assembleDebug        # Windows: gradlew.bat assembleDebug
+git clone https://github.com/<you>/wallpaper-android.git
 ```
 
-Or just open the folder in **Android Studio** (Ladybug or newer) and press ▶️ Run.
-
-Requirements: **JDK 11+**, Android Studio with **SDK 36**, a device or emulator on **API 24+**.
-
-It builds and runs out of the box with Google's official AdMob **test** ad units — no account
-needed to try it.
+**Open in Android Studio → press ▶️ Run.** Done. It works instantly with test ads.
 
 ---
 
-## 💰 Make money with it (3 steps)
+## 💰 Earn money (3 steps)
 
-The whole monetization layer lives in one file: [`ads/AdsConfig.kt`](app/src/main/java/com/demo/wallpaper/ads/AdsConfig.kt).
+<table>
+<tr><td align="center"><h1>1️⃣</h1></td><td>
 
-**1 — Create an AdMob account** at [admob.google.com](https://admob.google.com), add your app,
-and create one **Banner** and one **Interstitial** ad unit.
+**Get your AdMob IDs** → sign up free at [admob.google.com](https://admob.google.com), create a **Banner** + an **Interstitial** ad unit.
 
-**2 — Swap the test IDs for your real ones:**
+</td></tr>
+<tr><td align="center"><h1>2️⃣</h1></td><td>
+
+**Paste them in** `ads/AdsConfig.kt`
 
 ```kotlin
-// app/src/main/java/com/demo/wallpaper/ads/AdsConfig.kt
-object AdsConfig {
-    const val APP_ID                  = "ca-app-pub-XXXXXXXX~XXXXXXXX"
-    const val HOME_BANNER_AD_UNIT_ID  = "ca-app-pub-XXXXXXXX/XXXXXXXX"
-    const val INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-XXXXXXXX/XXXXXXXX"
-}
+const val APP_ID                  = "ca-app-pub-YOURS~XXXX"
+const val HOME_BANNER_AD_UNIT_ID  = "ca-app-pub-YOURS/XXXX"
+const val INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-YOURS/XXXX"
 ```
 
-**3 — Update the app id in `strings.xml`** (the manifest reads it from there):
+</td></tr>
+<tr><td align="center"><h1>3️⃣</h1></td><td>
+
+**And in** `res/values/strings.xml`
 
 ```xml
-<string name="admob_app_id">ca-app-pub-XXXXXXXX~XXXXXXXX</string>
+<string name="admob_app_id">ca-app-pub-YOURS~XXXX</string>
 ```
 
-That's it. Ship it.
+</td></tr>
+</table>
 
-<details>
-<summary><b>How the ads behave (and how to tune them)</b></summary>
+### 🎉 That's it — publish and keep 100% of the revenue.
 
-- **Banner** — an *adaptive* anchored banner sized to the device width, loaded on the Home
-  screen and destroyed with the fragment. See [`BannerAdController.kt`](app/src/main/java/com/demo/wallpaper/ads/BannerAdController.kt).
-- **Interstitial** — preloaded in the background and shown on **every 3rd wallpaper open**,
-  then immediately preloaded again. See [`InterstitialAdController.kt`](app/src/main/java/com/demo/wallpaper/ads/InterstitialAdController.kt).
+> ⚠️ **Never click your own live ads.** It gets your AdMob account banned. Keep the test IDs while developing.
 
-Want ads more or less often? Change the modulo in `InterstitialAdController.maybeShow()`:
-
-```kotlin
-if (ad == null || openCount % 3 != 0) { ... }   // 3 → every 3rd open
-```
-
-⚠️ **Never test with your real ad unit IDs** — clicking your own live ads gets AdMob accounts
-banned. Keep the test IDs during development and register your device as a test device.
-
-</details>
+**Ads show like this:** 📢 Banner on Home · 🎬 Full-screen ad on every **3rd** wallpaper open
+*(change `openCount % 3` in `InterstitialAdController.kt` to show more or fewer)*
 
 ---
 
 ## 🎨 Make it yours
 
-<details open>
-<summary><b>Swap the wallpapers</b></summary>
-
-Replace `app/src/main/res/drawable/wallpaper_1.png` … `wallpaper_12.png` with your own images
-(same filenames = zero code changes), or edit the catalog directly:
-
-```kotlin
-// data/WallpaperRepository.kt
-Wallpaper("w13", "Midnight Sky", Categories.PREMIUM, R.drawable.your_image)
-```
-
-Titles feed the search, and the category drives the chip filter — that's all a wallpaper needs.
-</details>
-
-<details>
-<summary><b>Rebrand it</b></summary>
-
-| What | Where |
+| I want to change… | Go to this file |
 |---|---|
-| App name & copy | `res/values/strings.xml` |
-| Colors & accent | `res/values/colors.xml` (`accent_emerald*` is the theme accent) |
-| Theme | `res/values/themes.xml` |
-| Package / app id | `namespace` + `applicationId` in `app/build.gradle.kts` |
-| Launcher icon | `res/mipmap-*` |
-| Privacy policy URL | `privacy_policy_url` in `strings.xml` — **required by Play** |
-
-</details>
-
-<details>
-<summary><b>Add or rename categories</b></summary>
-
-Edit `Categories` in [`model/Wallpaper.kt`](app/src/main/java/com/demo/wallpaper/model/Wallpaper.kt) —
-`ALL_ORDERED` is exactly what the chip bar renders, in that order.
-</details>
+| 🖼️ The wallpapers | `res/drawable/wallpaper_1.png` … `wallpaper_12.png` — **just overwrite them!** |
+| ✏️ App name & text | `res/values/strings.xml` |
+| 🎨 Colors | `res/values/colors.xml` |
+| 🏷️ Categories | `Categories` in `model/Wallpaper.kt` |
+| 📦 Package name | `applicationId` in `app/build.gradle.kts` |
+| 🖼️ App icon | `res/mipmap-*` |
 
 ---
 
-## 🧱 Architecture
-
-Plain MVVM, no DI framework, nothing to learn before you can edit it.
+## 📂 Inside the code
 
 ```
 com.demo.wallpaper
-├── WalloraApp.kt              Application — initializes the Mobile Ads SDK off the main thread
-├── model/     Wallpaper, WallpaperUi, Categories
-├── data/      WallpaperRepository (the catalog) · FavoriteManager (SharedPreferences)
-├── viewmodel/ WallpaperViewModel — search + category + favorites → derived LiveData lists
-├── adapter/   WallpaperAdapter (RecyclerView grid)
-├── ui/        MainActivity · home/ · favorites/ · settings/ · WallpaperDetailActivity
-├── util/      WallpaperActions — set / save-to-gallery / share
-└── ads/       AdsConfig · BannerAdController · InterstitialAdController
+│
+├── 📱 ui/          Home · Favorites · Settings · Detail
+├── 🖼️ model/       Wallpaper + Categories
+├── 💾 data/        Wallpaper list + Favorites
+├── 🧠 viewmodel/   Search · Filter · Favorites logic
+├── 🛠️ util/        Set / Save / Share wallpaper
+└── 💰 ads/         Banner + Interstitial
 ```
 
-`WallpaperViewModel` is shared across the Home and Favorites fragments via a `MediatorLiveData`
-pipeline: change the query, the category, or a favorite, and both grids recompute themselves.
-
-**Permissions:** `SET_WALLPAPER`, `INTERNET` (ads), and `WRITE_EXTERNAL_STORAGE` capped at
-API 28 — Android 10+ saves through MediaStore with no permission prompt at all.
+Clean **MVVM** · Kotlin · ViewBinding · No complicated setup.
 
 ---
 
-## 📋 Before you publish on Google Play
+## ✅ Before you publish on Play Store
 
-- [ ] Replace all AdMob test IDs with real ones (`AdsConfig.kt` **and** `strings.xml`)
-- [ ] Change `applicationId` to your own unique package name
-- [ ] Use images you have the rights to — **the placeholder wallpapers are for demo only**
-- [ ] Host a real privacy policy and point `privacy_policy_url` at it
-- [ ] Enable `isMinifyEnabled = true` for the release build
-- [ ] Sign the release build and complete the Play Data Safety form (declare AdMob)
-
----
-
-## 🗺️ Roadmap ideas
-
-Good first contributions, and good ways to make the app earn more:
-
-- Rewarded ads to unlock a "Premium" category
-- Live/scrolling wallpaper service
-- Remote catalog (Firebase / Unsplash) with Coil or Glide
-- Download counters and a "Most popular" sort
-- Light theme + dynamic Material You colors
+- [ ] 🔑 Put your **real** AdMob IDs in
+- [ ] 📦 Change the package name
+- [ ] 🖼️ Use **your own images** (the demo ones are placeholders!)
+- [ ] 📄 Add a real privacy policy link in `strings.xml`
+- [ ] ✍️ Sign your release build
 
 ---
-
-## 🤝 Contributing
-
-PRs are welcome — fork it, branch it, send it. Bug reports and feature ideas go in
-[Issues](../../issues).
-
-## 🎓 Learn to build apps like this with AI
-
-This source code is free. So is the training.
-
-**[androai.io](https://androai.io)** hosts a **2-hour live webinar** that walks you through
-building Android apps with AI — designing the UI, writing the Kotlin, wiring up AdMob, and
-publishing to the Play Store. Bring an idea, leave with an app.
-
-👉 **[Reserve your free seat at androai.io](https://androai.io)**
-
-## ⭐ Support
-
-If this saved you a weekend of work, **star the repo** — it's free, and it's the only thing
-this project asks for in return.
-
-## 📄 License
-
-[MIT](LICENSE) — free for personal **and commercial** use. Build it, brand it, publish it,
-keep 100% of the ad revenue. Attribution appreciated, not required.
-
-The placeholder wallpaper images are demo assets: **replace them with your own before you
-publish.**
 
 <div align="center">
 
-**Made with 💚 for Android developers who want to ship.**
+## 🎓 Build your own app with AI — FREE
 
-[Free 2-hour AI + Android webinar → androai.io](https://androai.io)
+### 2-hour live webinar · from idea → Play Store
+
+**No coding experience needed.**
+
+[![Reserve Free Seat](https://img.shields.io/badge/🎟️%20RESERVE%20YOUR%20FREE%20SEAT-androai.io-10B981?style=for-the-badge)](https://androai.io)
+
+### 👉 [androai.io](https://androai.io)
+
+<br>
+
+## ⭐ Like it? Star the repo!
+
+**[MIT License](LICENSE)** — free for commercial use. Build it. Brand it. Publish it. Keep the money.
+
+<br>
+
+**Made with 💚 for Android developers who want to ship.**
 
 </div>
