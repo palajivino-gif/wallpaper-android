@@ -20,6 +20,21 @@ works fully offline — and costs you nothing to run.
 
 ---
 
+<div align="center">
+
+### 🎓 Want to build apps like this yourself — with AI?
+
+**[androai.io](https://androai.io)** runs a **free 2-hour webinar** on developing Android apps
+using AI: from idea to a published, ad-monetized app — no prior Android experience needed.
+
+[![Join the free webinar](https://img.shields.io/badge/Join%20the%20FREE%202--hour%20webinar-androai.io-10B981?style=for-the-badge&logo=googlechrome&logoColor=white)](https://androai.io)
+
+*This app is exactly the kind of project you'll learn to build and ship.*
+
+</div>
+
+---
+
 ## ✨ Why this project
 
 Most wallpaper templates are either bare-bones demos or paid CodeCanyon downloads. Wallora is
@@ -204,6 +219,16 @@ Good first contributions, and good ways to make the app earn more:
 PRs are welcome — fork it, branch it, send it. Bug reports and feature ideas go in
 [Issues](../../issues).
 
+## 🎓 Learn to build apps like this with AI
+
+This source code is free. So is the training.
+
+**[androai.io](https://androai.io)** hosts a **2-hour live webinar** that walks you through
+building Android apps with AI — designing the UI, writing the Kotlin, wiring up AdMob, and
+publishing to the Play Store. Bring an idea, leave with an app.
+
+👉 **[Reserve your free seat at androai.io](https://androai.io)**
+
 ## ⭐ Support
 
 If this saved you a weekend of work, **star the repo** — it's free, and it's the only thing
@@ -220,5 +245,7 @@ publish.**
 <div align="center">
 
 **Made with 💚 for Android developers who want to ship.**
+
+[Free 2-hour AI + Android webinar → androai.io](https://androai.io)
 
 </div>
