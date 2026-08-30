@@ -28,10 +28,10 @@ object Categories {
     const val ALL = "All"
     const val NATURE = "Nature"
     const val ABSTRACT = "Abstract"
-    const val LOVE = "Love"
+    const val AMOLED = "AMOLED"
     const val MOTIVATION = "Motivation"
-    const val PREMIUM = "Premium"
+    const val SPACE = "Space"
 
     /** Order shown in the chip bar (ALL first). */
-    val ALL_ORDERED = listOf(ALL, NATURE, ABSTRACT, LOVE, MOTIVATION, PREMIUM)
+    val ALL_ORDERED = listOf(ALL, NATURE, ABSTRACT, AMOLED, SPACE, MOTIVATION)
 }

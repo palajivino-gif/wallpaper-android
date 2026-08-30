@@ -22,9 +22,9 @@
     <string name="cat_all">All</string>
     <string name="cat_nature">Nature</string>
     <string name="cat_abstract">Abstract</string>
-    <string name="cat_love">Love</string>
+    <string name="cat_amoled">AMOLED</string>
     <string name="cat_motivation">Motivation</string>
-    <string name="cat_premium">Premium</string>
+    <string name="cat_space">Space</string>
 
     <string name="set_wallpaper">Set Wallpaper</string>
     <string name="save_gallery">Save</string>

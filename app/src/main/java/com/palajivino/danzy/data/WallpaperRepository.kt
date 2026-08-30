@@ -7,25 +7,25 @@ import com.palajivino.danzy.model.Wallpaper
 /**
  * Single source of truth for the wallpaper catalog.
  *
- * All images are local drawables in res/drawable (wallpaper_1 .. wallpaper_8).
+ * All images are local drawables in res/drawable-nodpi (wallpaper_1 .. wallpaper_12).
  * Replace the placeholder drawables with your own images of the same name,
  * or add new entries here pointing at your drawable resource ids.
  */
 object WallpaperRepository {
 
     private val wallpapers: List<Wallpaper> = listOf(
-        Wallpaper("w1", "Emerald Mist", Categories.NATURE, R.drawable.wallpaper_1),
-        Wallpaper("w2", "Violet Dream", Categories.ABSTRACT, R.drawable.wallpaper_2),
-        Wallpaper("w3", "Sweet Sunset", Categories.LOVE, R.drawable.wallpaper_3),
-        Wallpaper("w4", "Deep Ocean", Categories.NATURE, R.drawable.wallpaper_4),
-        Wallpaper("w5", "Fresh Wave", Categories.MOTIVATION, R.drawable.wallpaper_5),
-        Wallpaper("w6", "Golden Hour", Categories.PREMIUM, R.drawable.wallpaper_6),
-        Wallpaper("w7", "Cosmic Night", Categories.PREMIUM, R.drawable.wallpaper_7),
-        Wallpaper("w8", "Crimson Bloom", Categories.LOVE, R.drawable.wallpaper_8),
-        Wallpaper("w9", "Forest Glow", Categories.NATURE, R.drawable.wallpaper_9),
-        Wallpaper("w10", "Neon Flux", Categories.ABSTRACT, R.drawable.wallpaper_10),
-        Wallpaper("w11", "Rise Up", Categories.MOTIVATION, R.drawable.wallpaper_11),
-        Wallpaper("w12", "Royal Velvet", Categories.PREMIUM, R.drawable.wallpaper_12)
+        Wallpaper("w1", "Aurora Peak", Categories.NATURE, R.drawable.wallpaper_1),
+        Wallpaper("w2", "Crystal Flow", Categories.ABSTRACT, R.drawable.wallpaper_2),
+        Wallpaper("w3", "Emerald Orbit", Categories.AMOLED, R.drawable.wallpaper_3),
+        Wallpaper("w4", "Emerald Falls", Categories.NATURE, R.drawable.wallpaper_4),
+        Wallpaper("w5", "Summit Path", Categories.MOTIVATION, R.drawable.wallpaper_5),
+        Wallpaper("w6", "Ringed Horizon", Categories.SPACE, R.drawable.wallpaper_6),
+        Wallpaper("w7", "Infinite Galaxy", Categories.SPACE, R.drawable.wallpaper_7),
+        Wallpaper("w8", "Neon Crossing", Categories.AMOLED, R.drawable.wallpaper_8),
+        Wallpaper("w9", "Canyon Dawn", Categories.NATURE, R.drawable.wallpaper_9),
+        Wallpaper("w10", "Arc Matrix", Categories.ABSTRACT, R.drawable.wallpaper_10),
+        Wallpaper("w11", "Rise Beyond", Categories.MOTIVATION, R.drawable.wallpaper_11),
+        Wallpaper("w12", "Velvet Waves", Categories.ABSTRACT, R.drawable.wallpaper_12)
     )
 
     /** All wallpapers in the catalog. */
