@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🎨 Wallora
+# 🎨 Danzy
 
-### Premium Wallpaper App for Android — free source code, ads already built in.
+### General 4K Wallpaper App for Android
 
 Clone it → change the pictures → publish it → **earn from AdMob.**
 
@@ -60,7 +60,7 @@ Clone it → change the pictures → publish it → **earn from AdMob.**
 | 💰 | **AdMob built in** | Banner + interstitial, ready to earn |
 | ⚡ | **Zero cost** | No server, no API — images are local |
 | ❤️ | **Favorites** | Saved forever on the phone |
-| 🔎 | **Search + 6 categories** | Nature · Abstract · Love · Motivation · Premium |
+| 🔎 | **Search + 6 categories** | Nature · Abstract · AMOLED · Space · Motivation |
 | 📥 | **Set · Save · Share** | One tap each |
 
 ---
@@ -118,7 +118,7 @@ const val INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-YOURS/XXXX"
 
 | I want to change… | Go to this file |
 |---|---|
-| 🖼️ The wallpapers | `res/drawable/wallpaper_1.png` … `wallpaper_12.png` — **just overwrite them!** |
+| 🖼️ The wallpapers | `res/drawable-nodpi/wallpaper_1.png` … `wallpaper_12.png` |
 | ✏️ App name & text | `res/values/strings.xml` |
 | 🎨 Colors | `res/values/colors.xml` |
 | 🏷️ Categories | `Categories` in `model/Wallpaper.kt` |
@@ -130,7 +130,7 @@ const val INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-YOURS/XXXX"
 ## 📂 Inside the code
 
 ```
-com.demo.wallpaper
+com.palajivino.danzy
 │
 ├── 📱 ui/          Home · Favorites · Settings · Detail
 ├── 🖼️ model/       Wallpaper + Categories

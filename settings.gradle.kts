@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "WallPaper"
+rootProject.name = "Danzy"
 include(":app")

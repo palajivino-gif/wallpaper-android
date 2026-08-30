@@ -2,7 +2,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base premium dark theme built on Material Components -->
-    <style name="Theme.Wallora" parent="Theme.Material3.Dark.NoActionBar">
+    <style name="Theme.Danzy" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/accent_emerald</item>
         <item name="colorPrimaryDark">@color/accent_emerald_dark</item>
         <item name="colorOnPrimary">@color/black</item>
@@ -23,14 +23,14 @@
     </style>
 
     <!-- Fullscreen wallpaper detail theme -->
-    <style name="Theme.Wallora.Detail" parent="Theme.Wallora">
+    <style name="Theme.Danzy.Detail" parent="Theme.Danzy">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowTranslucentStatus">false</item>
     </style>
 
     <!-- Category chip styling -->
-    <style name="Widget.Wallora.Chip" parent="Widget.Material3.Chip.Filter">
+    <style name="Widget.Danzy.Chip" parent="Widget.Material3.Chip.Filter">
         <item name="chipBackgroundColor">@color/chip_unselected</item>
         <item name="chipStrokeColor">@color/glass_stroke</item>
         <item name="chipStrokeWidth">1dp</item>
@@ -42,7 +42,7 @@
     </style>
 
     <!-- Primary action button (emerald) -->
-    <style name="Widget.Wallora.Button.Primary" parent="Widget.Material3.Button">
+    <style name="Widget.Danzy.Button.Primary" parent="Widget.Material3.Button">
         <item name="backgroundTint">@color/accent_emerald</item>
         <item name="android:textColor">@color/black</item>
         <item name="cornerRadius">16dp</item>
@@ -51,7 +51,7 @@
     </style>
 
     <!-- Secondary glass action button -->
-    <style name="Widget.Wallora.Button.Glass" parent="Widget.Material3.Button.OutlinedButton">
+    <style name="Widget.Danzy.Button.Glass" parent="Widget.Material3.Button.OutlinedButton">
         <item name="backgroundTint">@color/glass_card</item>
         <item name="android:textColor">@color/text_primary</item>
         <item name="strokeColor">@color/glass_stroke</item>
@@ -61,11 +61,13 @@
         <item name="iconGravity">textStart</item>
     </style>
 
-    <style name="WalloraStatPill">
+    <style name="DanzyStatPill">
         <item name="android:background">@drawable/bg_stat_pill</item>
         <item name="android:gravity">center</item>
-        <item name="android:paddingHorizontal">12dp</item>
-        <item name="android:paddingVertical">10dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textStyle">bold</item>
