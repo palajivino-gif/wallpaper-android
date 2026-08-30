@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🎨 Wallora
+# 🎨 Danzy
 
-### Premium Wallpaper App for Android — free source code, ads already built in.
+### General 4K Wallpaper App for Android
 
 Clone it → change the pictures → publish it → **earn from AdMob.**
 
@@ -130,7 +130,7 @@ const val INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-YOURS/XXXX"
 ## 📂 Inside the code
 
 ```
-com.demo.wallpaper
+com.palajivino.danzy
 │
 ├── 📱 ui/          Home · Favorites · Settings · Detail
 ├── 🖼️ model/       Wallpaper + Categories

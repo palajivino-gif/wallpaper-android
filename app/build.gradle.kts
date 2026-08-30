@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.demo.wallpaper"
+    namespace = "com.palajivino.danzy"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.demo.wallpaper"
+        applicationId = "com.palajivino.danzy"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

@@ -130,7 +130,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_set_wallpaper"
-            style="@style/Widget.Wallora.Button.Primary"
+            style="@style/Widget.Danzy.Button.Primary"
             android:layout_width="0dp"
             android:layout_height="56dp"
             android:layout_weight="1"
@@ -140,7 +140,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_save"
-            style="@style/Widget.Wallora.Button.Glass"
+            style="@style/Widget.Danzy.Button.Glass"
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:layout_marginStart="10dp"
@@ -154,7 +154,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_share"
-            style="@style/Widget.Wallora.Button.Glass"
+            style="@style/Widget.Danzy.Button.Glass"
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:layout_marginStart="10dp"
